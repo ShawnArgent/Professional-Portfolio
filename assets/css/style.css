@@ -1,13 +1,29 @@
 * {
+  font-family: "Courier New", "Courier", monospace;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  background-color: #ceeaf7;
+  font-size: 16px;
+}
+
+header {
+  background: #d5c9df;
+  padding: 1em 0;
+  text-align: start;
+}
+
+.menu {
+  text-align: end;
+}
+
 .container {
     width: 100%;
-    height: 200 px;
-    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 img {
@@ -15,17 +31,28 @@ img {
     max-height: 50%;
     max-width: 50%;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-li {
-    display: inline;
-  }
   
 .navList {
     text-align: center;
+}
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+  header {
+    background: #772014;
+  }
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+  .sample-img {
+    background-color: #8ac4ff;
+  }
 }
