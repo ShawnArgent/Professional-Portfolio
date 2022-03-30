@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #ceeaf7;
+  background-image: url("assets/images/AdobeStock_351608746.jpg");
+  background-color: #cccccc;
   font-size: 16px;
 }
 
@@ -36,23 +37,12 @@ img {
     text-align: center;
 }
 
-/* Tablets - header changes color */
-@media screen and (max-width: 992px) {
-  header {
-    background: #772014;
-  }
+.col-left {
+  width: 30%;
+  border-right: 4px solid #6e5583;
 }
 
-/* Large smartphones - navbar changes color */
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #bb8588;
-  }
-}
-
-/* Small smartphones - image placeholders change color */
-@media screen and (max-width: 576px) {
-  .sample-img {
-    background-color: #8ac4ff;
-  }
+.col-right {
+  width: 70%;
+  padding-left: 30px; 
 }
