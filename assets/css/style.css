@@ -21,12 +21,25 @@ header {
 
 h2 {
   font-size: 48px;
+  margin-left: 6%;
+}
+
+h4 {
+  font-size: 24px;
+  margin-left: 15%;
+}
+
+p {
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-around;
 }
 
 img {
   display: block;
   max-height: 30%;
-  max-width: 30%
+  max-width: 30%;
+  margin-left: 12%;
 }
   
 .navbar {
@@ -47,3 +60,15 @@ img {
   color: navy;  
 }
 
+.footer {
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
