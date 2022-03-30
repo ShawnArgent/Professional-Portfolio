@@ -7,6 +7,13 @@ body {
   background-color: #2b99cc;
   color: navy;
 }
+.projects {
+  background-image: url("../images/AdobeStock_351608746.jpeg");
+  display: block;
+  max-height: 30%;
+  max-width: 30%;
+  margin-left: 12%;
+}
 
 header {
   padding: 25px;
@@ -44,12 +51,13 @@ img {
   
 .navbar {
   overflow: hidden;
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
   float: left; 
-  display: block; 
+  display: flex; 
   color: navy;  
   padding: 14px 20px;  
   text-decoration: none;  
