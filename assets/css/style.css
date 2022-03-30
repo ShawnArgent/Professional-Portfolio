@@ -1,48 +1,49 @@
 * {
-  font-family: "Courier New", "Courier", monospace;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
-  background-image: url("assets/images/AdobeStock_351608746.jpeg");
-  background-color: #cccccc;
-  font-size: 16px;
+  font-family: "Courier New", "Courier", monospace;
+  background-color: #2b99cc;
+  color: navy;
 }
 
 header {
-  background: #d5c9df;
-  padding: 1em 0;
-  text-align: start;
+  padding: 25px;
+  text-align: center;
+  background: #6681a3;
+  color: navy;
 }
 
-.menu {
-  text-align: end;
+.header h1 {
+  font-size: 60px;
 }
 
-.container {
-    width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+h2 {
+  font-size: 48px;
 }
 
 img {
-    display: block;
-    max-height: 50%;
-    max-width: 50%;
+  display: block;
+  max-height: 30%;
+  max-width: 30%
 }
   
-.navList {
-    text-align: center;
+.navbar {
+  overflow: hidden;
+  display: block;
 }
 
-.col-left {
-  width: 30%;
-  border-right: 4px solid #6e5583;
+.navbar a {
+  float: left; 
+  display: block; 
+  color: navy;  
+  padding: 14px 20px;  
+  text-decoration: none;  
 }
 
-.col-right {
-  width: 70%;
-  padding-left: 30px; 
+.navbar a:hover {
+  background-color: #91a6c7;  
+  color: navy;  
 }
+
