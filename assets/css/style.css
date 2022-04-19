@@ -1,52 +1,92 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+ --color-primary: #bfd6f2;
+ --color-secondary: navy;
+ --color-blue: #66b3ff;
+ --color-blue-2: #6681a3;
 }
 
 body {
-  font-family: "Courier New", "Courier", monospace;
-  background-color: #2b99cc;
-  color: navy;
-}
-.projects {
-  display: block;
-  max-height: 30%;
-  max-width: 30%;
-  margin-left: 12%;
+  font-family: Courier;
+  font-size: 1.1rem;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  transition: all .4s ease-in-out;
+  margin: 0;
 }
 
-header {
-  padding: 25px;
+
+.header {
+  margin-top: 0;
   text-align: center;
-  background: #6681a3;
-  color: navy;
+  background: var(--color-blue-2);
+  color: var(-secondary);
 }
 
-.header h1 {
-  font-size: 60px;
+
+h1 {
+  font-size: 48px;
 }
 
 h2 {
-  font-size: 48px;
-  margin-left: 6%;
+  font-size: 24px;
+}
+
+
+
+h3 {
+  margin-left: 5%;
+  font-size: 36px;
 }
 
 h4 {
   font-size: 24px;
-  margin-left: 15%;
+  text-align: center;
 }
 
 p {
   margin-left: 5%;
   margin-right: 5%;
   justify-content: space-around;
+  text-decoration: none;
+}
+
+.section {
+  text-decoration: none;
+}
+.card {
+text-decoration: none;
+
+}
+
+.card-text {
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-body {
+  color: var(secodary);  
+  text-decoration: none;
 }
 
 img {
-  display: block;
-  max-height: 30%;
-  max-width: 30%;
-  margin-left: 12%;
+  padding: 5px;
+  max-height: 100%;
+  max-width: 100%;
 }
+
+.row {
+  margin-left: 5%;
+  margin-right: 5%;
+  justify-content: space-around;
+  }
+ 
   
 .navbar {
   overflow: hidden;
@@ -57,14 +97,14 @@ img {
 .navbar a {
   float: left; 
   display: flex; 
-  color: navy;  
+  color: var(--color-secondary);  
   padding: 14px 20px;  
   text-decoration: none;  
 }
 
 .navbar a:hover {
   background-color: #91a6c7;  
-  color: navy;  
+  color: var(--color-secondary);  
 }
 
 .footer {
@@ -73,6 +113,17 @@ img {
   text-decoration: none;
 }
 
+.footer .links {
+  padding: 25px;
+
+}
+
+.footer a:hover {
+  background-color: #91a6c7; 
+  color: var(secodary);  
+  text-decoration: none;
+
+}
 @media screen and (max-width: 400px) {
   .navbar a {
     float: none;
