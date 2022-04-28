@@ -56,11 +56,14 @@ h4 {
   text-align: center;
 }
 
+.card-text {
+  padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fa;
+}
+
 p {
   margin-left: 5%;
-  margin-right: 5%;
-  justify-content: space-around;
-  text-decoration: none;
 }
 
 .section {
@@ -69,16 +72,6 @@ p {
 
 .card {
 text-decoration: none;
-}
-
-.card-text {
-  text-align: center;
-  text-decoration: none;
-}
-
-.card-body {
-  color: var(secodary);  
-  text-decoration: none;
 }
 
 #headshot {
